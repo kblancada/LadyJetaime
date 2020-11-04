@@ -86,7 +86,7 @@ p {
   color: #C44536;
 }
 
-@media (min-width: 992px) {
+@media screen and (max-width: 943px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
   }
@@ -95,6 +95,46 @@ p {
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
     color: #e6a756;
+  }
+  .intro .intro-img {
+    width: 75%;
+    float: left;
+  }
+  .about-heading .about-heading-img {
+    position: relative;
+    z-index: 0;
+  }
+  .about-heading .about-heading-content {
+    margin-top: -5rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .product-item .product-item-title {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -3rem;
+  }
+  .product-item .product-item-img {
+    position: relative;
+    z-index: 0;
+    max-width: 60vw;
+  }
+  .product-item .product-item-description {
+    position: relative;
+    z-index: 1;
+    margin-top: -3rem;
+    max-width: 50vw;
+  }
+  .list-hours {
+    width: 50%;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .intro .intro-text {
+    width: 45%;
   }
 }
 
@@ -111,12 +151,7 @@ p {
   position: relative;
 }
 
-@media (min-width: 992px) {
-  .intro .intro-img {
-    width: 75%;
-    float: left;
-    
- }
+
   .intro .intro-text {
     left: 0;
     width: 60%;
@@ -128,12 +163,6 @@ p {
     left: 0;
     position: absolute;
     bottom: -2rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .intro .intro-text {
-    width: 45%;
   }
 }
 
@@ -162,37 +191,6 @@ p {
   z-index: -1;
 }
 
-@media (min-width: 992px) {
-  .about-heading .about-heading-img {
-    position: relative;
-    z-index: 0;
-  }
-  .about-heading .about-heading-content {
-    margin-top: -5rem;
-    position: relative;
-    z-index: 1;
-  }
-}
-
-@media (min-width: 992px) {
-  .product-item .product-item-title {
-    position: relative;
-    z-index: 1;
-    margin-bottom: -3rem;
-  }
-  .product-item .product-item-img {
-    position: relative;
-    z-index: 0;
-    max-width: 60vw;
-  }
-  .product-item .product-item-description {
-    position: relative;
-    z-index: 1;
-    margin-top: -3rem;
-    max-width: 50vw;
-  }
-}
-
 .list-hours {
   font-size: 0.9rem;
 }
@@ -207,13 +205,6 @@ p {
 .list-hours .list-hours-item.today {
   font-weight: bold;
   color: #e6a756;
-}
-
-@media (min-width: 992px) {
-  .list-hours {
-    width: 50%;
-    font-size: 1.1rem;
-  }
 }
 
 .address strong {
@@ -249,3 +240,5 @@ p {
 .font-weight-light {
   font-weight: 100 !important;
 }
+
+
