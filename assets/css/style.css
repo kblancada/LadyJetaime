@@ -69,24 +69,24 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(40, 61, 59, 0.9);
+  background-color: rgba(237, 221, 212, 0.9);
   font-family: 'Raleway';
 }
 
 #mainNav .navbar-brand {
-  color: #C44536;
+  color: #C44536; 
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: rgba(237, 221, 212, 0.7);
+  color: rgba(40, 61, 59, 0.7);
   font-weight: 800;
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #C44536;
+  color: #197278;
 }
 
-@media screen and (max-width: 943px) {
+@media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
   }
@@ -132,7 +132,7 @@ p {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media (min-width: 1200px) {
   .intro .intro-text {
     width: 45%;
   }
