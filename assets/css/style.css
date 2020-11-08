@@ -1,6 +1,13 @@
+/*!
+ * Start Bootstrap - Business Casual v5.0.10 (https://startbootstrap.com/themes/business-casual)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-casual/blob/master/LICENSE)
+ */
+
 body {
   font-family: 'Lora';
-  background-image: linear-gradient(rgba(40, 61, 59, 0.65), rgba(40, 61, 59, 0.65)), url("../images/main1.jpg");
+  background-image: linear-gradient(rgba(237, 221, 212, 0.1), rgba(237, 221, 
+  212, 0.1)), url("../images/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -20,7 +27,7 @@ p {
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(40, 61, 59, .99);
 }
 
 .site-heading {
@@ -65,7 +72,7 @@ p {
 }
 
 .bg-faded {
-  background-color: rgba(237, 221, 212, 0.85);
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 #mainNav {
@@ -74,7 +81,7 @@ p {
 }
 
 #mainNav .navbar-brand {
-  color: #C44536; 
+  color: #C44536;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -83,8 +90,10 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #197278;
+  color: #197278;;
 }
+
+
 
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -95,46 +104,6 @@ p {
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
     color: #e6a756;
-  }
-  .intro .intro-img {
-    width: 75%;
-    float: left;
-  }
-  .about-heading .about-heading-img {
-    position: relative;
-    z-index: 0;
-  }
-  .about-heading .about-heading-content {
-    margin-top: -5rem;
-    position: relative;
-    z-index: 1;
-  }
-
-  .product-item .product-item-title {
-    position: relative;
-    z-index: 1;
-    margin-bottom: -3rem;
-  }
-  .product-item .product-item-img {
-    position: relative;
-    z-index: 0;
-    max-width: 60vw;
-  }
-  .product-item .product-item-description {
-    position: relative;
-    z-index: 1;
-    margin-top: -3rem;
-    max-width: 50vw;
-  }
-  .list-hours {
-    width: 50%;
-    font-size: 1.1rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .intro .intro-text {
-    width: 45%;
   }
 }
 
@@ -151,7 +120,11 @@ p {
   position: relative;
 }
 
-
+@media (min-width: 992px) {
+  .intro .intro-img {
+    width: 75%;
+    float: right;
+  }
   .intro .intro-text {
     left: 0;
     width: 60%;
@@ -166,10 +139,16 @@ p {
   }
 }
 
+@media (min-width: 1200px) {
+  .intro .intro-text {
+    width: 45%;
+  }
+}
+
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(196, 69, 54, 0.9);
+  background-color: rgba(119, 46, 37, 0.75);
 }
 
 .cta .cta-inner {
@@ -191,6 +170,37 @@ p {
   z-index: -1;
 }
 
+@media (min-width: 992px) {
+  .about-heading .about-heading-img {
+    position: relative;
+    z-index: 0;
+  }
+  .about-heading .about-heading-content {
+    margin-top: -5rem;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 992px) {
+  .product-item .product-item-title {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -3rem;
+  }
+  .product-item .product-item-img {
+    position: relative;
+    z-index: 0;
+    max-width: 60vw;
+  }
+  .product-item .product-item-description {
+    position: relative;
+    z-index: 1;
+    margin-top: -3rem;
+    max-width: 50vw;
+  }
+}
+
 .list-hours {
   font-size: 0.9rem;
 }
@@ -207,12 +217,19 @@ p {
   color: #e6a756;
 }
 
+@media (min-width: 992px) {
+  .list-hours {
+    width: 50%;
+    font-size: 1.1rem;
+  }
+}
+
 .address strong {
   font-size: 1.2rem;
 }
 
 .footer {
-  background-color: rgba(40, 61, 59, 0.9);
+  background-color: rgba(237, 221, 212, 0.65);
 }
 
 .text-primary {
@@ -228,17 +245,15 @@ p {
 }
 
 .btn-primary {
-  background-color: #C44536;
-  border-color: #C44536;
+  background-color: #c44536;
+  border-color: #c44536;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #D8796F;
-  border-color: #D8796F;
+  background-color: #c44536;
+  border-color: #c44536;
 }
 
 .font-weight-light {
   font-weight: 100 !important;
 }
-
-
