@@ -183,12 +183,11 @@ p {
   padding-bottom: .25rem;
   margin-bottom: 1rem;
   font-style: italic;
+  display: inline-block;
 }
 
-.list-hours .list-hours-item.today {
-  font-weight: bold;
-  color: #e6a756;
-}
+
+
 
 @media (min-width: 992px) {
   .list-hours {
@@ -230,3 +229,23 @@ p {
 .font-weight-light {
   font-weight: 100 !important;
 }
+
+#menu-outer {
+	height: 84px;
+	
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 10px;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+
+	ul#horizontal-list li {
+		display: inline;
+	}
