@@ -237,7 +237,7 @@ p {
 
 .table {
 	display: table;   /* Allow the centering to work */
-	margin: 10px;
+	margin: 0 auto;
 }
 
 ul#horizontal-list {
